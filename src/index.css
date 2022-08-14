@@ -138,9 +138,7 @@ hr {
 .pag_b:hover {
   color: rgb(0, 110, 255);
 }
-.pag_a:active {
-  color: red;
-}
+
 .for_i {
   background-color: rgb(50, 43, 43);
   color: greenyellow;
