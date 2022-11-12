@@ -130,15 +130,31 @@ hr {
   list-style-type: none;
 }
 
-.pag_a {
+.pag_but {
   color: greenyellow;
+  background-color: black;
   text-decoration: none;
+  border: none;
+  font-size: 46px;
+  margin-top: -8px;
+  cursor: pointer;
 }
-.pag_a:hover,
+.is-current {
+  color: rgb(0, 110, 255);
+}
+.is-disabled {
+  visibility: hidden;
+}
+.pag_but:hover,
 .pag_b:hover {
   color: rgb(0, 110, 255);
 }
-
+.pru1 {
+  color: red;
+}
+.pru2 {
+  color: aqua;
+}
 .for_i {
   background-color: rgb(50, 43, 43);
   color: greenyellow;
